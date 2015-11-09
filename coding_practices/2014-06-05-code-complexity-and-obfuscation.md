@@ -37,9 +37,16 @@ iOS binaries in applications distributed in the AppStore are encrypted, adding a
 
 ## References
 
+# iOS
+
  * FairPlay DRM overview on iOS [https://www.theiphonewiki.com/wiki/Copy_Protection_Overview]()
  * Bugging Debuggers on iOS [https://www.theiphonewiki.com/wiki/Bugging_Debuggers]()
  * LLVM-Obfuscator [https://github.com/obfuscator-llvm/obfuscator/wiki]()
+ * ObjC-Obfuscator [https://github.com/FutureWorkshops/Objc-Obfuscator]()
+ * iOS-Class-Guard [https://github.com/Polidea/ios-class-guard]()
+
+# Android
+
  * [http://developer.android.com/guide/publishing/licensing.html#app-obfuscation](http://developer.android.com/guide/publishing/licensing.html#app-obfuscation)
  * Android - ProGuard: [http://proguard.sourceforge.net/](http://proguard.sourceforge.net/) - 
 	[http://developer.android.com/tools/help/proguard.html](http://developer.android.com/tools/help/proguard.html) 
