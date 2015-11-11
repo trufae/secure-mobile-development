@@ -32,6 +32,15 @@ session.trusted = TRUE
 ```
 
 Such values can be both read and written to by an attacker within the instance of a class currently in use by the application. On iOS by manipulating the Objective-C runtime, these variables can be manipulated so that the next time they are referenced by the application, any manipulated values will be read instead. 
+## Examples
+
+Some developers use control flow integrity measures in order to ensure the validation steps have been properly checked. This kind of validations include the one or more of the following techniques:
+
+* counters
+* caller address validation
+* more than one check
+* use cryptography
+* 
 
 ## CWE/OWASP 
 

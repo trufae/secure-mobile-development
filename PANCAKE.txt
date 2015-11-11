@@ -1,0 +1,27 @@
+https://github.com/nowsecure/secure-mobile-development/blob/master/coding_practices/2014-06-05-code-complexity-and-obfuscation.md
+  - obfuscate code (antidisasm tricks)
+  - obfuscate data (strings, files)
+  - obfuscate metadata (objc, symbols)
+  - swift is not as introspectable as objc
+  - restricting debuggers or making debugging complicate have nothing to do with code complexity or obfuscation
+  - explain how to use the PT_DENY_ATTACH and android:debuggable=false with code
+  - flow integrity - verify the workflow is the expected on every function (where do i come from?)
+  - white box security
+  - i dont think compiler optimizations should be listed as a way to protect code logic
+  - renaming symbols with wrong or invalid names
+  - depending on the compiler the final binary can have more than one symbol table
+  - always verify the resulting binary with strings|grep|...
+  - i dont think the DRM applied by FairPlay can be in any way a security measure to care
+https://github.com/nowsecure/secure-mobile-development/blob/master/coding_practices/2014-06-05-avoid-simple-logic.md
+  - add some recomendations, not just what not to do
+https://github.com/nowsecure/secure-mobile-development/blob/master/coding_practices/2014-06-06-securely-store-sensitive-data-in-ram.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/coding_practices/2014-06-06-understand-secure-deletion-of-data.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/sensitive_data/2014-06-06-limit-use-of-uuid.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/sensitive_data/2014-06-05-treat-geolocation-data-carefully.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/sensitive_data/2014-06-06-protect-application-settings.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/caching_logging/2014-06-05-avoid-caching-app-data.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/caching_logging/2014-06-05-avoid-crash-logs.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/caching_logging/2014-06-05-be-aware-of-copy-paste.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/ios/2014-06-06-use-the-keychain-carefully.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/ios/2014-06-05-avoid-cached-application-snapshots.md
+https://github.com/nowsecure/secure-mobile-development/blob/master/ios/2014-06-06-use-automatic-reference-counting.md
